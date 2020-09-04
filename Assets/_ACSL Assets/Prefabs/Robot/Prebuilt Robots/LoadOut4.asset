@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd68f59aab2dff4d8d7b209a16d3b06, type: 3}
+  m_Name: LoadOut4
+  m_EditorClassIdentifier: 
+  health: 3000
+  energy: 375
+  range: 55
+  speed: 3.75
+  RobotName: Sniper
+  RobotDescription: A ranged robot that deals heavy damage from far away.
+  head: {fileID: -5314522483795014050, guid: 45db615fd0e51a44989da95538aca6a1, type: 3}
+  body: {fileID: -4600882247779152240, guid: d3989ab1f911eea46940cbf1853c94f6, type: 3}
+  lArm: {fileID: 7934115451947296969, guid: 2c97acb2b2bb39a46966450b527068ab, type: 3}
+  rArm: {fileID: 5973655371603725826, guid: 43c3d259295f1c647ba7a1e76782d027, type: 3}
+  legs: {fileID: 8660983478158061133, guid: 13c15b8f1d294c54f81433f051d5f9d2, type: 3}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f117cc2f69dc9e34384402aa84189314, type: 3}
+  m_Name: NailParticleTrail
+  m_EditorClassIdentifier: 
+  overrideTargetingStyle: 0
+  overridenStyle: 0
+  onObjectSpawned: []
+  onObjectDespawned: []
+  onTriggerStay: []
+  onObjectHit: []
+  lifeTime: 0
+  followTarget: 1
+  triggerStayTickRate: 0
+  spawnOnOwner: 0
+  useCustomSpawnPoint: 1
+  destroyOnSkillshotHit: 0
+  destroyOnCollision: 0
+  collisionTags: []
+  spawnFromSelf: 0
+  ReverseDirection: 0
+  isLooped: 1
+  followOwner: 1
+  particles:
+  - {fileID: 4189465586854886304, guid: 09afc2c7b911d4d43b6767d43bb8e4fe, type: 3}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4423b3258acd3c409cb4174b8971315, type: 3}
+  m_Name: BulletData
+  m_EditorClassIdentifier: 
+  ProjectileMesh: {fileID: -7204647971529134275, guid: 457966a572260ea4faeddec4b2129033,
+    type: 3}
+  ProjectileMaterial: {fileID: 2100000, guid: beb9c80c3942b5441a3c351a90a80a80, type: 2}
+  ProjectileScale: {x: 0.1, y: 0.1, z: 0.1}
+  InitialSpeed: 100
+  InitialForceMultiplier: 10000
+  MaxSpeed: 100
+  ProjectileHasAcceleration: 0
+  ProjectileAcceleration: 0
+  LifeTime: 2
+  ProjectileBaseDamageMin: 10
+  ProjectileBaseDamageMax: 10
+  ProjectileColliderType: 3
+  ProjectileColliderIsTrigger: 1
+  ProjectileHasTrail: 1
+  test: {fileID: 0}
+  IsHomingProjectile: 0
+  HomingAcceleration: 0
+  RotationFollowsVelocity: 0
+  ProjectileIsExplosive: 0
+  ProjectileSpawnsParticles: 1
+  ProjectilePartilceEmitters:
+  - Type: 0
+    ParticleEmitterObject:
+    - {fileID: 6391263087383140869, guid: 6f57b9e071ce8bc4eb6837f1ca71f692, type: 3}
+    Direction: 2
+  ExplosionRadius: 0
+  ExplosionForce: 0
+  ExplosionDamage: 0
+  ExplosionDamageDropOff: 0
+  ProjectileUsesPhysics: 1
+  ProjectileMass: 10
+  ProjectileForceMode: 0
+  ProjectileIsKinematic: 1
+  ProjectileCollisionMode: 0
+  ProjectileUsesGravity: 0
+  ProjectileDrag: 0
+  ProjectileAngularDrag: 0.05

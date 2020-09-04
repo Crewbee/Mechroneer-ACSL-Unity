@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd68f59aab2dff4d8d7b209a16d3b06, type: 3}
+  m_Name: LoadOut1
+  m_EditorClassIdentifier: 
+  health: 2750
+  energy: 375
+  range: 45
+  speed: 3
+  RobotName: Hybrid
+  RobotDescription: A versitile robot that accomodates most playstyles.
+  head: {fileID: 8760647916016994188, guid: 3675f6037fd5c7c41a9fe64ca7ca1487, type: 3}
+  body: {fileID: -6182647554941935123, guid: 6bb60bd37d74f004391830c7f283bb1b, type: 3}
+  lArm: {fileID: 8235146548004203940, guid: 689878b800d40014d83cdcd1ec5cdf74, type: 3}
+  rArm: {fileID: 3029382429484509032, guid: 303b2ddd9ea5bdc41a7239fcf153ac36, type: 3}
+  legs: {fileID: 2280971759699344824, guid: 3341c0693b705794faf25ca1032076c3, type: 3}

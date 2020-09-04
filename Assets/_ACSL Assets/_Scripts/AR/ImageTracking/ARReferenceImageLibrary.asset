@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ARReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5106896361720980834
+  m_GuidHigh: 1030762804729072259
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4870788841290408257
+      m_GuidHigh: 14415824957609580710
+    m_SerializedTextureGuid:
+      m_GuidLow: 2600534209704395108
+      m_GuidHigh: 7958654693397646555
+    m_Size: {x: 0.5, y: 0.5}
+    m_SpecifySize: 1
+    m_Name: MechroneerIcon
+    m_Texture: {fileID: 2800000, guid: e3ae8164f4152416db4cf6e146d2726e, type: 3}

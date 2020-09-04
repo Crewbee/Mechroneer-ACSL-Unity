@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75cff23670600a44a78ca40946f1d73, type: 3}
+  m_Name: PlungerPull
+  m_EditorClassIdentifier: 
+  abilityName: Plunger Pull
+  abilityDescription: Damages and pulls robots towards the user.
+  abilityIcon: {fileID: 21300000, guid: 6ad282029eb411d41abd641000b88bca, type: 3}
+  abilityColor: {r: 1, g: 0.7830189, b: 0.7830189, a: 1}
+  energyCost: 10
+  cooldown: 8
+  range: {x: 0, y: 30}
+  charges: 1
+  rechargeRate: 0
+  effects:
+  - {fileID: 11400000, guid: a23381a751d42064db80530f6835fdf3, type: 2}
+  - {fileID: 11400000, guid: da3ac00842f33bb4ebaf17929ececc1e, type: 2}
+  targetingStyle: 1
+  targetMask: 4

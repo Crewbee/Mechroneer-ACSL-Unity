@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e66dec08b03faa1448e3a1788128048e, type: 3}
+  m_Name: EDPingPongProjectile
+  m_EditorClassIdentifier: 
+  overrideTargetingStyle: 1
+  overridenStyle: 1
+  onObjectSpawned: []
+  onObjectDespawned: []
+  onTriggerStay: []
+  onObjectHit:
+  - {fileID: 11400000, guid: a1c60d7c960e1784793e31556702e41c, type: 2}
+  lifeTime: 0.2
+  followTarget: 0
+  triggerStayTickRate: 0
+  spawnOnOwner: 0
+  useCustomSpawnPoint: 1
+  destroyOnSkillshotHit: 0
+  destroyOnCollision: 0
+  collisionTags: []
+  spawnFromSelf: 0
+  objectToSpawn: {fileID: 535094337264246591, guid: 397718a37a3b38647a91b87b9ddd7f48,
+    type: 3}
+  hitRadius: 0
+  damage: 0
+  speed: 50
+  travelMaxRange: 0
+  lockProjectileHeight: 0
+  amountToSpawn: 14
+  spawnDegrees: 35
+  overrideAbilityRange: 0
+  range: 0
+  ricochetAmount: 0
+  ricochetOffLayer:
+    serializedVersion: 2
+    m_Bits: 0

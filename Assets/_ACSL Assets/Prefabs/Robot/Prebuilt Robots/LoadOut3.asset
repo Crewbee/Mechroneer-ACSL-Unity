@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd68f59aab2dff4d8d7b209a16d3b06, type: 3}
+  m_Name: LoadOut3
+  m_EditorClassIdentifier: 
+  health: 3000
+  energy: 375
+  range: 10
+  speed: 3
+  RobotName: Tank
+  RobotDescription: A powerful, slow robot that can take and deal damage.
+  head: {fileID: 2637860936693137879, guid: e0341e78482ecae4eb89a19b369e7c69, type: 3}
+  body: {fileID: 4665374849859398217, guid: 732beafcf6954714c8d4e0c7196d3e6c, type: 3}
+  lArm: {fileID: 7838916027378758551, guid: 7e05ff4c3d4eac34297051a6304719c5, type: 3}
+  rArm: {fileID: 5965730635405587949, guid: e8b3a9faafe82324d9913ba4649677a2, type: 3}
+  legs: {fileID: 4135750025027582593, guid: 0c573c482671f1448b06e4678a70658f, type: 3}

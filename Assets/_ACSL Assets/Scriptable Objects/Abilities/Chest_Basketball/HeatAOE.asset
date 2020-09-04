@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc7d395d8ae9c744f8003c8e86bf6df4, type: 3}
+  m_Name: HeatAOE
+  m_EditorClassIdentifier: 
+  overrideTargetingStyle: 0
+  overridenStyle: 0
+  onObjectSpawned: []
+  onObjectDespawned: []
+  onTriggerStay: []
+  onObjectHit:
+  - {fileID: 11400000, guid: 1f72e31db06e2a547a96100529b2b0fe, type: 2}
+  - {fileID: 11400000, guid: 5b302552892a23c408d585b2f2962e63, type: 2}
+  lifeTime: 5
+  followTarget: 1
+  triggerStayTickRate: 1
+  spawnOnOwner: 1
+  useCustomSpawnPoint: 0
+  destroyOnSkillshotHit: 0
+  destroyOnCollision: 0
+  collisionTags: []
+  spawnFromSelf: 1
+  objectToSpawn: {fileID: -2983052485290085858, guid: bf2a4cb80d648c34b87d300d13332815,
+    type: 3}
+  hitRadius: 6

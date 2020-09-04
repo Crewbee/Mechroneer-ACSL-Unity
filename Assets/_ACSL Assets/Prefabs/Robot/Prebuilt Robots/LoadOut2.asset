@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd68f59aab2dff4d8d7b209a16d3b06, type: 3}
+  m_Name: LoadOut2
+  m_EditorClassIdentifier: 
+  health: 2500
+  energy: 375
+  range: 45
+  speed: 4.5
+  RobotName: Scout
+  RobotDescription: A quick robot that favors hits to damage.
+  head: {fileID: 3126202042038479941, guid: 815a70b02835cf544a3a9581134aa690, type: 3}
+  body: {fileID: 3153640513460535633, guid: df59b2e6bb99e07419112e4616c4c289, type: 3}
+  lArm: {fileID: 7687919012529294159, guid: 3ef28b052d3b47c4ba8d49729807b7fd, type: 3}
+  rArm: {fileID: 9078121925892052147, guid: cf6ea20fc36675a4196d2dd52fc041c3, type: 3}
+  legs: {fileID: 5634818256684418677, guid: fcadf5944ae848b49bdfdaa7fbb18d24, type: 3}

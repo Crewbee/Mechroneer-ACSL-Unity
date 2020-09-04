@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc7d395d8ae9c744f8003c8e86bf6df4, type: 3}
+  m_Name: ShieldSpawn
+  m_EditorClassIdentifier: 
+  overrideTargetingStyle: 0
+  overridenStyle: 0
+  onObjectSpawned:
+  - {fileID: 11400000, guid: c751fe43cecea0549a0daa419a6797ae, type: 2}
+  onObjectDespawned: []
+  onTriggerStay: []
+  onObjectHit: []
+  lifeTime: 5
+  followTarget: 1
+  triggerStayTickRate: 0
+  spawnOnOwner: 1
+  useCustomSpawnPoint: 0
+  destroyOnSkillshotHit: 0
+  destroyOnCollision: 0
+  collisionTags: []
+  spawnFromSelf: 0
+  objectToSpawn: {fileID: -1853659248472615205, guid: 6d5b33ee127e3234ebf81276428be249,
+    type: 3}
+  hitRadius: 0

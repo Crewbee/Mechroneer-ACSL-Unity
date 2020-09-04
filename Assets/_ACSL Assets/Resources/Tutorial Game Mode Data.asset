@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f58217bb4330c4dbb98390efa3393c, type: 3}
+  m_Name: Tutorial Game Mode Data
+  m_EditorClassIdentifier: 
+  gameMode: {fileID: 2390881412587011109, guid: 8e61b161274760c4d80eae786507530a,
+    type: 3}
+  gameState: {fileID: 8893513073931581721, guid: fab69cfb3d8195d4d9922af65408d0c1,
+    type: 3}
+  UI: {fileID: 5767297018103941703, guid: e30f3c341b15b264ca1a1eba07b66cb9, type: 3}
+  robot: {fileID: 3895756927367046769, guid: a3c673a4b6c963f49827c39a0905e4de, type: 3}
+  controller: {fileID: 4542401955279563984, guid: f8f1fc0d8ece47c449fe89361558094f,
+    type: 3}
+  aiController: {fileID: 6808807578453531799, guid: 0c9561228ef601d40bf5bca7969bbf68,
+    type: 3}

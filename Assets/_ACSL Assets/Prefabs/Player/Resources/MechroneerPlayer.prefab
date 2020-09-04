@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3446332961911187106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8413868981827654660}
+  - component: {fileID: 1859392738566216949}
+  - component: {fileID: -1634856391881421395}
+  - component: {fileID: -2211497692670712964}
+  m_Layer: 0
+  m_Name: MechroneerPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8413868981827654660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446332961911187106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.743687, y: -21.929272, z: 21.062141}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1859392738566216949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446332961911187106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e56c18a305425f943a586812643cf171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_abilityToFire: 0
+  m_TapToMoveArrowPrefab: {fileID: 3591386404084449858, guid: 6bd03fca595414642a58aff82e28a0ba,
+    type: 3}
+  m_AimIndicatorPrefab: {fileID: 3184262872319797653, guid: f4917fc8bae766d4fa3357cb37a9b729,
+    type: 3}
+  m_PlayerIndicatorPrefab: {fileID: 3188588649109031624, guid: 7c1da6f55b13364479807182202619a7,
+    type: 3}
+  userData: {fileID: 0}
+  isUsingGamePad: 0
+  currentRobot: {fileID: 0}
+  robotData: {fileID: 0}
+  playerID: 0
+  playerTeam: 0
+  playerColor: 0
+--- !u!114 &-1634856391881421395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446332961911187106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 0
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  viewIdField: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &-2211497692670712964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446332961911187106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88a088a31a69a7242923e92277265c40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_playerBeingSpectated: {fileID: 0}
+  m_currentRobotBeingSpectated: {fileID: 0}

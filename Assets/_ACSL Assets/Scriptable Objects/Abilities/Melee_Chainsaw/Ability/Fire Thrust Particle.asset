@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f117cc2f69dc9e34384402aa84189314, type: 3}
+  m_Name: Fire Thrust Particle
+  m_EditorClassIdentifier: 
+  overrideTargetingStyle: 0
+  overridenStyle: 0
+  onObjectSpawned: []
+  onObjectDespawned: []
+  onTriggerStay: []
+  onObjectHit: []
+  lifeTime: 1.5
+  followTarget: 0
+  triggerStayTickRate: 0
+  spawnOnOwner: 0
+  useCustomSpawnPoint: 1
+  destroyOnSkillshotHit: 0
+  destroyOnCollision: 0
+  collisionTags: []
+  spawnFromSelf: 0
+  ReverseDirection: 1
+  isLooped: 0
+  followOwner: 1
+  particles:
+  - {fileID: -5040203314051866070, guid: cbf2c34e2c736b1418732b24bc0c97e4, type: 3}

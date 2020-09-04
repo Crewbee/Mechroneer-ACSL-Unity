@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75cff23670600a44a78ca40946f1d73, type: 3}
+  m_Name: NailGunAbility
+  m_EditorClassIdentifier: 
+  abilityName: Freeze Cloud
+  abilityDescription: Damages and slows robots caught in it.
+  abilityIcon: {fileID: 21300000, guid: 2b4bdfa4aa3ae2149b965102bf1d9b7b, type: 3}
+  abilityColor: {r: 0.745283, g: 0.93460804, b: 1, a: 1}
+  energyCost: 90
+  cooldown: 10
+  range: {x: 0, y: 4}
+  charges: 1
+  rechargeRate: 0
+  effects:
+  - {fileID: 11400000, guid: bda4de10ae2d6e344967145e7c5bddf9, type: 2}
+  - {fileID: 11400000, guid: cdd29df34b0189943bf3d46f279c7445, type: 2}
+  targetingStyle: 2
+  targetMask: 4

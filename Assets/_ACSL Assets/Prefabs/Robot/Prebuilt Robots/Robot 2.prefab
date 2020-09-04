@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &118523269823266937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3819170387191544143}
+  - component: {fileID: 9136605352161717760}
+  m_Layer: 0
+  m_Name: Robot 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3819170387191544143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118523269823266937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 300.59293, y: 154.68579, z: -255.6148}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9136605352161717760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118523269823266937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b3464f98b533048baea6050c5ccedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Head: {fileID: 5256632149499498316, guid: 8ac13571743e757428142f12cdc92c8c, type: 3}
+  RightArm: {fileID: 6333571866156223789, guid: 297e7b01eef5465488612e0d651f6ef7,
+    type: 3}
+  LeftArm: {fileID: 3535217520958667639, guid: 03750c68fb40b644da87054ba2909d15, type: 3}
+  Body: {fileID: 3411902368227220885, guid: b87def309fc086b4c8c136bd34ed9a2f, type: 3}
+  Legs: {fileID: 4167158419220074187, guid: db5ef6a536cfdf54b963ebf994b8190a, type: 3}
+  m_Health: 0
+  headSocket: {x: 0, y: 0, z: 0}
+  rightarmSocket: {x: 0, y: 0, z: 0}
+  leftarmSocket: {x: 0, y: 0, z: 0}
+  bodySocket: {x: 0, y: 0, z: 0}
+  legSocket: {x: 0, y: 0, z: 0}

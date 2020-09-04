@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f58217bb4330c4dbb98390efa3393c, type: 3}
+  m_Name: Free For All
+  m_EditorClassIdentifier: 
+  gameMode: {fileID: -774525430126774862, guid: 1790647781223644e846c70c7a298062,
+    type: 3}
+  gameState: {fileID: 2528911843990929424, guid: 202a90ea03b248c4caaf421dd3bd2431,
+    type: 3}
+  UI: {fileID: 5767297018103941703, guid: e30f3c341b15b264ca1a1eba07b66cb9, type: 3}
+  robot: {fileID: -5541087407327323601, guid: 1502ae56063b14d43944cdd011cadb52, type: 3}
+  controller: {fileID: 4542401955279563984, guid: f8f1fc0d8ece47c449fe89361558094f,
+    type: 3}
+  aiController: {fileID: 6808807578453531799, guid: 0c9561228ef601d40bf5bca7969bbf68,
+    type: 3}

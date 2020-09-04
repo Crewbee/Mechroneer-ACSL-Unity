@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6357871509929707429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6357871509929707435}
+  - component: {fileID: 6357871509929707434}
+  m_Layer: 0
+  m_Name: Interaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6357871509929707435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6357871509929707429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.9878733, y: 0.077773795, z: -3.0422807}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6357871509929707434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6357871509929707429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95bb508459f18154a8ff9e99bbf981c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planeTarget: {fileID: 6482727798216484432, guid: cdbb21ac1e81c0141b822337820046fd,
+    type: 3}
+  objectToPlace: {fileID: 90615762377884739, guid: 4d2c1bad290f38643ae643b8f3a5a7c8,
+    type: 3}
+  planeToPlace: {fileID: 4037561733092085001, guid: 22530e4f737813d4a90e724648d73f53,
+    type: 3}
+  plane: {fileID: 0}
+  basePlane: {fileID: 0}
+  planePlaced: 0
+  debugText: {fileID: 0}
+  arRaycastManager: {fileID: 0}

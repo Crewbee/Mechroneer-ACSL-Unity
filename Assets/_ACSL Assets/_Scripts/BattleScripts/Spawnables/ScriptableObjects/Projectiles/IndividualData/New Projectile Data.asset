@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4423b3258acd3c409cb4174b8971315, type: 3}
+  m_Name: New Projectile Data
+  m_EditorClassIdentifier: 
+  ProjectileMesh: {fileID: 0}
+  ProjectileMaterial: {fileID: 0}
+  ProjectileScale: {x: 0, y: 0, z: 0}
+  InitialSpeed: 0
+  InitialForceMultiplier: 0
+  MaxSpeed: 0
+  ProjectileHasAcceleration: 0
+  ProjectileAcceleration: 0
+  LifeTime: 0
+  ProjectileBaseDamageMin: 0
+  ProjectileBaseDamageMax: 0
+  ProjectileColliderType: 0
+  ProjectileColliderIsTrigger: 0
+  ProjectileHasTrail: 0
+  test: {fileID: 0}
+  IsHomingProjectile: 0
+  HomingAcceleration: 0
+  RotationFollowsVelocity: 0
+  ProjectileIsExplosive: 0
+  ProjectileSpawnsParticles: 0
+  ProjectilePartilceEmitters:
+  - Type: 0
+    ParticleEmitterObject: []
+    Direction: 0
+  ExplosionRadius: 0
+  ExplosionForce: 0
+  ExplosionDamage: 0
+  ExplosionDamageDropOff: 0
+  ProjectileUsesPhysics: 0
+  ProjectileMass: 0
+  ProjectileForceMode: 0
+  ProjectileIsKinematic: 0
+  ProjectileCollisionMode: 0
+  ProjectileUsesGravity: 0
+  ProjectileDrag: 0
+  ProjectileAngularDrag: 0.05

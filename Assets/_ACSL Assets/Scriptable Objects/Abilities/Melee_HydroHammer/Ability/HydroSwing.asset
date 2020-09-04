@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75cff23670600a44a78ca40946f1d73, type: 3}
+  m_Name: HydroSwing
+  m_EditorClassIdentifier: 
+  abilityName: Hydro Swing
+  abilityDescription: Slams down in an area in front.
+  abilityIcon: {fileID: 21300000, guid: 7abc8baaa83581f4ab8a184bae8c94fc, type: 3}
+  abilityColor: {r: 0.3490566, g: 0.6136557, b: 1, a: 1}
+  energyCost: 20
+  cooldown: 3
+  range: {x: 0, y: 5}
+  charges: 1
+  rechargeRate: 0
+  effects:
+  - {fileID: 11400000, guid: 97a3e393ff4b81a4f8f090f93cc48fd8, type: 2}
+  - {fileID: 11400000, guid: cd7b11faa8b69924fa16e929af3ff928, type: 2}
+  targetingStyle: 1
+  targetMask: 4

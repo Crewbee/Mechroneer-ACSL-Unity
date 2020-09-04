@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d05042e9976aaf04e9831b3b87aa0ff6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ONDeath: {fileID: 9315734700469866, guid: 09c482a0af54400488b98703e4ccbea5, type: 3}
+  - floatingDamageSlight: {instanceID: 0}
+  - floatingDamageMed: {instanceID: 0}
+  - floatingDamageCrit: {instanceID: 0}
+  - tapToMoveArrowPrefab: {instanceID: 0}
+  - m_aimIndicatorPrefab: {instanceID: 0}
+  - playerIndicatorPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

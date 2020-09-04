@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75cff23670600a44a78ca40946f1d73, type: 3}
+  m_Name: Fire Thrust
+  m_EditorClassIdentifier: 
+  abilityName: Flame Charge
+  abilityDescription: Charge in a direction dealing damage.
+  abilityIcon: {fileID: 21300000, guid: c2bee3fe4aaf2704f8d4e39e30d3d2cb, type: 3}
+  abilityColor: {r: 0.8962264, g: 0.563088, b: 0.34665364, a: 1}
+  energyCost: 50
+  cooldown: 5
+  range: {x: 0, y: 5}
+  charges: 1
+  rechargeRate: 0
+  effects:
+  - {fileID: 11400000, guid: 2353f87817e2f2d489f5d20356b69bbc, type: 2}
+  - {fileID: 11400000, guid: 82ab83df057977c468dffbdf139e0e49, type: 2}
+  - {fileID: 11400000, guid: 78bae319f1e84874bbe55c1354e74b60, type: 2}
+  - {fileID: 11400000, guid: aee09af50f1609e4386ab9d70999b847, type: 2}
+  targetingStyle: 1
+  targetMask: 4
